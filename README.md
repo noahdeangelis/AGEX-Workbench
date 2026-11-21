@@ -1,12 +1,13 @@
-# AGEX
+# AGEX Workbench
+> Formally "AGEX", AGEX will be used as the umbrella name for our new AI models, with AGEX Workbench being the full agent software
 
-**AGEX is a tool using AI agent.**
+**AGEX Workbench is a tool using AI agent.**
 
-AGEX is an agent program that connects an LLM to a set of python tools, allowing it to perform calculations, do research, read files, run commands, etc.
+AGEX Workbench is an agent program that connects an LLM to a set of python tools, allowing it to perform calculations, do research, read files, run commands, etc.
 
 There is a mod.py file which new tools can easily be added to.
 
-AGEX currently allows local langauge models using the OpenAI style API, and features and optional choice to use a cloud model (OpenAI API).
+AGEX Workbench currently allows local langauge models using the OpenAI style API, and features and optional choice to use a cloud model (OpenAI API).
 
 > Note: There is no built binaries as of now, requiring a python install to use
 
@@ -64,8 +65,8 @@ A simple local server such as llama.cpp can work
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/noahdeangelis/AGEX.git
-cd AGEX
+git clone https://github.com/noahdeangelis/AGEX Workbench.git
+cd AGEX Workbench
 ```
 
 ### 2. Create a virtual environment
@@ -141,7 +142,7 @@ AUTO_ACCEPT_FILE_OPERATIONS=false
 AUTO_ACCEPT_SHELL_OPERATIONS=false
 ```
 
-## Running AGEX
+## Running AGEX Workbench
 
 Start your local model server first and ensure that its API is accessible. (If using local models)
 
@@ -151,14 +152,14 @@ For a local llama.cpp server listening on port `8080`, the local  base URL is ty
 http://localhost:8080/v1
 ```
 
-Then run AGEX:
+Then run AGEX Workbench:
 
 ```bash
 source .venv/bin/activate
 python main.py
 ```
 
-You should see the AGEX command-line interface.
+You should see the AGEX Workbench command-line interface.
 
 You can now interact with the agent through the terminal.
 
@@ -178,7 +179,7 @@ Once registered, the tool will automatically be discoverable by the model on sta
 
 ## Current Limitations
 
-AGEX is an evolving project.
+AGEX Workbench is an evolving project.
 
 Current limitations may include:
 
@@ -189,7 +190,7 @@ Current limitations may include:
 - Chats are currently not persistant
 ## Project Goals
 
-AGEX aims to develop into a capable, modular AI agent with an emphasis on:
+AGEX Workbench aims to develop into a capable, modular AI agent with an emphasis on:
 
 - **Local-first operation:** Run inference locally when possible.
 - **Extensibility:** Add new capabilities through an easy to use tool interface.
